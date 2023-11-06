@@ -22,7 +22,7 @@ app.use('/questions', questionRoutes),
 app.use('/answer', answerRoutes)
 
  
-const PORT = 8080;
+const PORT = process.env.PORT|| 8080;
  
 const DATABASE_URL = process.env.CONNECTION_URL
 
