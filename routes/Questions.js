@@ -12,4 +12,4 @@ router.patch('/vote/:id',  auth, voteQuestion);
 
 
  
-export default router
+export default router 
